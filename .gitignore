@@ -1,0 +1,27 @@
+# Exclude any files or folders with "solution" in the name (case insensitive)
+*solution*
+*Solution*
+*SOLUTION*
+
+# Exclude common temporary files
+.DS_Store
+*.tmp
+*.swp
+*~
+
+# Exclude Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude IDE specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Instructor-only files -- must never reach student repos
+assignment_*_config.yaml
+assignment.yaml
